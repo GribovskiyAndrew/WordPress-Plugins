@@ -1,0 +1,23 @@
+.location-child {
+    width: 33%;
+}
+
+.locations-conteiner {
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.location-title {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+	.location-child {
+		width: 100%;
+	}
+	
+	.locations-conteiner {
+		flex-direction: column;
+	}
+}

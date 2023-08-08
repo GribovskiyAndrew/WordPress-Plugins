@@ -1,0 +1,74 @@
+.table-of-contents {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.location-button {
+    display: block;
+    color: #404040;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0.3em;
+    flex-basis: 12.5%;
+    text-align: center;
+    padding: 7px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-child {
+    margin-top: 1em;
+    box-shadow: 0px 0px 12px 7px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+}
+
+.content-child a {
+    color: black;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.content-child div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+}
+
+.content-child p {
+    text-align: left;
+    margin: 0!important;
+}
+
+.select-container select{
+    padding: 0.6em 10em 0.6em 1em;
+    margin: 2em 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .location-button {
+        width: 100%;
+    }
+
+    .table-of-contents {
+        flex-direction: column;
+    }
+
+    .content-child {
+        width: 100%;
+    }
+}

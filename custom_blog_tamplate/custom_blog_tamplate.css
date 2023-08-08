@@ -1,0 +1,30 @@
+.subtitle {
+	font-size: 1.125em;
+    line-height: 1.75em;
+	color: #273444;
+}
+
+.blog-table-of-contents {
+	display: flex;
+    justify-content: flex-start;
+    color: #8a8a8a;
+    //font-size: 1.4em;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.blog-table-of-contents a {
+	font-size: 18px;
+    font-weight: 600!important;
+    line-height: 1.5em;
+    color: #39207b;
+    /*margin: 0 0.5em;*/
+}
+
+.blog-table-of-contents a::after {
+    content: '\00a0|\00a0';
+}
+
+.blog-table-of-contents> :last-child::after{
+content: none;
+}

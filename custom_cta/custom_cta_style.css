@@ -1,0 +1,40 @@
+.wrap {
+    display: flex;
+    padding: 1.125em 0px;
+    border-top: 2px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    max-width: 37.5em;
+    margin: auto;
+    line-height: 1.75;
+}
+
+.cta {
+    display: flex;
+    padding: 1.875em;
+    background: rgb(255, 255, 255);
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0.7em 0.5em;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content_conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content_conteiner h4 {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: rgba(0, 0, 0, 0.89);
+    margin: 0.5em 0px 0px;
+}
+
+.content_conteiner a {
+    background: black;
+    color: white;
+    padding: 0.5em;
+    border-radius: 2em;
+    text-align: center;
+}
