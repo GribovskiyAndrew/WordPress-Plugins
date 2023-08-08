@@ -81,7 +81,7 @@ add_action('asclepius_action_after_post_title', 'generate_table_of_content');
 
 function custom_blog_styles()
 {
-	wp_enqueue_style('custom_blog_style', plugin_dir_url(__FILE__) . 'custom_blog_tamplate.css');
+	wp_enqueue_style('custom_blog_style', plugin_dir_url(__FILE__) . 'custom_blog_template.css');
 }
 
 add_action('wp_enqueue_scripts', 'custom_blog_styles');
